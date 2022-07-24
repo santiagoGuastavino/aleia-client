@@ -1,0 +1,30 @@
+.navbar {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--side-padding);
+}
+
+.img-box img {
+  max-width: 100px;
+}
+
+.burger-box button {
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 var(--side-padding);
+}
+
+.header-title {
+  width: 100%;
+  margin: 30px 0;
+  font-weight: 800;
+}
+
+.header-button {
+  background-color: inherit;
+  padding: 4px 8px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  cursor: pointer;
+  border: solid 2px #000;
+}
+
+.header-button svg {
+  font-size: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 2px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
